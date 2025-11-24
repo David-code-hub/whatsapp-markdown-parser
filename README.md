@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/v/whatsapp-markdown-parser.svg)](https://www.npmjs.com/package/whatsapp-markdown-parser)
+[![npm](https://img.shields.io/npm/dm/whatsapp-markdown-parser.svg)](https://www.npmjs.com/package/whatsapp-markdown-parser)
+![Build Status](https://github.com/David-code-hub/whatsapp-markdown-parser/actions/workflows/publish.yml/badge.svg)
+
 # whatsapp-markdown-parser
 
 A simple TypeScript library to convert lightweight markdown symbols in text into HTML tags.  
