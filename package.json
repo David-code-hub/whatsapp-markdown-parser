@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-markdown-parser",
+  "version": "1.1.4",
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "keywords": [
+    "markdown",
+    "html",
+    "whatsapp",
+    "meta"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "description": "Parse whatsapp/meta markdown text input.",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}
